@@ -1,0 +1,40 @@
+@media screen and (max-width: 500px){
+   
+   .logo-redes-sociais{
+      margin-right: 2%;
+   }
+   .redes-sociais{
+      width: 45%;
+   }
+   
+   .conteudo-principal{ 
+      flex-direction: column-reverse;
+      width: 90%;
+      margin: 1% auto;
+   }
+   
+   .ilustração{
+      width: 90%;
+      height: 250px;
+      margin: 0 auto;
+   }
+   
+   .texto{
+      width: 100%;
+      font-size: 13px;
+   }
+   
+   .titulo-principal{
+      font-size: 48px;
+   }
+   
+   .botao-agora{
+      width: 50%;
+      height: 30px;
+      margin: 10% auto;
+   }
+   
+   .botao-trailer{
+      visibility: hidden;   
+   }
+}

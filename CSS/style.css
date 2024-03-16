@@ -1,0 +1,208 @@
+body {
+  background: linear-gradient(270deg, #1a4855 0%, #628e75 100%);
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ########## Cabecalho ######## */
+.cabecalho {
+  width: 90%;
+  margin: 2% auto;
+}
+
+.container-cabecalho {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-principal {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 10%;
+  height: 75px;
+  color: #ffffff;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.3rem;
+  letter-spacing: 0.1rem;
+}
+
+.logo-img {
+  width: 35%;
+}
+
+.redes-sociais {
+  width: 20%;
+}
+
+.logo-redes-sociais {
+  margin-right: 8%;
+  filter: contrast(50%);
+}
+
+.logo-redes-sociais:hover {
+  cursor: pointer;
+  transform: scale(106%);
+  transition: 250ms;
+  filter: contrast(100%);
+}
+
+/*######### Conteudo Principal #######*/
+.conteudo-principal {
+  width: 90%;
+  margin: 5% auto;
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+}
+
+.texto {
+  width: 35%;
+}
+
+.sub-titulo-principal {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.titulo-principal {
+  font-size: 68px;
+  font-weight: 900;
+  margin: 5% 0;
+}
+
+.conteuto-texto {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.5em;
+}
+
+.ilustração {
+  width: 500px;
+  height: 430px;
+  opacity: 45%;
+  animation-name: movimento;
+  animation-duration: 2.4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+  position: relative;
+  animation-timing-function: linear;
+}
+
+.ilustração:hover {
+  opacity: 100%;
+  transition: 650ms;
+  transition-timing-function: ease-in-out;
+}
+
+@keyframes movimento {
+  from {
+    top: 0;
+  }
+  to {
+    top: -45px;
+  }
+}
+
+.botao-agora {
+  background-color: #6c9b80;
+  color: #f9f9f9;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  width: 42%;
+  height: 9%;
+  border: 2px solid #6c9b80;
+  margin: 10% 3% 0 0;
+  transform: skew(-25deg);
+  font-weight: 600;
+}
+
+.botao-agora p {
+  transform: skew(25deg);
+}
+
+.botao-agora p::before {
+  content: "\25BA";
+  font-size: 16px;
+}
+
+.botao-agora:hover {
+  background-color: #4a6b58;
+  transition: 350ms;
+  cursor: pointer;
+}
+
+.botao-trailer {
+  background-color: transparent;
+  color: #f9f9f9;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  width: 42%;
+  height: 9%;
+  border: 2px solid #658e76;
+  transform: skew(-25deg);
+  font-weight: 600;
+}
+
+.botao-trailer:hover {
+  background-color: #4a6b58;
+  transition: 350ms;
+  cursor: pointer;
+}
+
+.botao-trailer p {
+  transform: skew(25deg);
+}
+
+.sub-titulo-personages {
+  text-align: center;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.personagens {
+  width: 60%;
+  margin: 0 auto;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+}
+
+.per {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 5%;
+}
+
+.info-per {
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.img-per {
+  width: 180px;
+  margin-top: 5%;
+  box-shadow: 0 0 10px 5px #57575791;
+  background-color: #ffffff77;
+  border: 1px solid #3b3b3b;
+  border-radius: 2%;
+}
+
+.img-per:hover {
+  transform: scale(102.5%);
+  cursor: pointer;
+  transition: 250ms;
+}
+
+.bio-per {
+  width: 70%;
+  line-height: 1.2rem;
+  font-weight: 300;
+}
