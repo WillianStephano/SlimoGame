@@ -159,7 +159,7 @@ a {
   transform: skew(25deg);
 }
 
-.sub-titulo-personages {
+.sub-titulo {
   text-align: center;
   color: #ffffff;
   font-family: "Poppins", sans-serif;
@@ -167,7 +167,8 @@ a {
   font-weight: 700;
 }
 
-.personagens {
+.personagens,
+.map {
   width: 60%;
   margin: 0 auto;
   color: #ffffff;
@@ -205,4 +206,27 @@ a {
   width: 70%;
   line-height: 1.2rem;
   font-weight: 300;
+}
+
+.slimo-map {
+  width: 100%;
+  margin: 0 auto;
+  box-shadow: 0px 0px 10px 10px #3b3b3b90;
+}
+
+.txt-mapa {
+  text-align: center;
+  line-height: 1.5rem;
+  font-weight: 100;
+  margin: 3% 0;
+}
+
+.rodape {
+  margin-top: 5%;
+  border-top: 1px solid #808080;
+  font-size: 0.8rem;
+  padding: 1%;
+  color: #fff;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
 }
