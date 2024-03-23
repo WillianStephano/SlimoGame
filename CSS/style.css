@@ -171,7 +171,7 @@ a {
 .map {
   width: 60%;
   margin: 0 auto;
-  color: #ffffff;
+  color: #f0e2e2;
   font-family: "Poppins", sans-serif;
 }
 
@@ -208,7 +208,7 @@ a {
   font-weight: 300;
 }
 
-.slimo-map {
+.img_carrosel {
   width: 100%;
   margin: 0 auto;
   box-shadow: 0px 0px 10px 10px #3b3b3b90;
@@ -230,3 +230,40 @@ a {
   text-align: center;
   font-family: "Poppins", sans-serif;
 }
+
+
+/*################ CARROSEL ################ */
+.carrosel{
+  width: 100%;
+  margin: 2% auto;
+}
+
+.carrosel .container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.bt_proximo, .bt_anterior {
+  background-color: inherit;
+  border: none;
+}
+
+.bt_proximo:hover , .bt_anterior:hover {
+  color: #c21d16 ;
+  cursor: pointer;
+  transition: 250ms;
+}
+
+.img_carrosel{
+  width: 920px;
+  height: 500px;
+}
+
+.linha{
+  margin-top: 3%;
+  border-top: 1px solid #dde4e7;
+}
+
+

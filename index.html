@@ -18,6 +18,14 @@
     <link rel="stylesheet" href="CSS/responsivo.css" />
 
     <!-- Fontes & Icones -->
+    <script
+      src="https://kit.fontawesome.com/64be57a035.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;900&display=swap"
       rel="stylesheet"
@@ -60,8 +68,8 @@
           <button class="botao-agora"><p>Jogue agora</p></button>
         </a>
 
-        <a href="#">
-          <button class="botao-trailer"><p>assistir o tutorial</p></button>
+        <a href="https://www.youtube.com/watch?v=olVP5WhnjP8" target="_blank">
+          <button class="botao-trailer"><p>assistir ao tutorial</p></button>
         </a>
       </div>
 
@@ -105,17 +113,29 @@
       </div>
     </section>
     <section class="map">
-      <h2 class="sub-titulo">Mapa</h2>
+      <h2 class="sub-titulo">Mapas</h2>
 
-      <p class="txt-mapa">
-        S Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum illum
-        inventore recusandae distinctio, harum eveniet alias tempora enim eaque
-        commodi deserunt reprehenderit rerum! Recusandae soluta, quo non labore
-        perspiciatis adipisci.
-      </p>
-      <img class="slimo-map" src="assets/slimoMap.png" alt="" />
+      <section class="carrosel">
+        <div class="container">
+          <button class="bt_anterior">
+            <i class="fas fa-chevron-left fa-3x"></i>
+          </button>
+
+          <img
+            class="img_carrosel"
+            src="assets/slimoMap.png"
+            alt="Imagem com fundo laranja anunciando vagasremanescentes."
+          />
+
+          <button class="bt_proximo">
+            <i class="fas fa-chevron-right fa-3x"></i>
+          </button>
+        </div>
+        <p class="txt-mapa"></p>
+      </section>
     </section>
-  
-  <footer class="rodape"><p>Bora Trocar Company &copy;</p></footer>
+
+    <footer class="rodape"><p>Bora Trocar Company &copy;</p></footer>
+    <script src="./main.js"></script>
   </body>
 </html>
