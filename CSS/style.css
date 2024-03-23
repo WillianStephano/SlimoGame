@@ -213,13 +213,12 @@ a {
   margin: 0 auto;
 }
 
-.carrosel .container{
+.carrosel .container {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 100%;
 }
-
 
 .img_carrosel {
   width: 100%;
@@ -278,4 +277,18 @@ a {
 .linha {
   margin-top: 3%;
   border-top: 1px solid #dde4e7;
+}
+
+.manual {
+  text-align: center;
+  width: 50%;
+  margin: 5% auto;
+}
+
+.manual-txt {
+  margin-bottom: 2%;
+  text-align: center;
+  color: #ffff;
+  font-family: "Poppins", sans-serif;
+  line-height: 1.2rem;
 }
