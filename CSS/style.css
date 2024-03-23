@@ -208,6 +208,19 @@ a {
   font-weight: 300;
 }
 
+.carrosel {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.carrosel .container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+
 .img_carrosel {
   width: 100%;
   margin: 0 auto;
@@ -231,39 +244,38 @@ a {
   font-family: "Poppins", sans-serif;
 }
 
-
 /*################ CARROSEL ################ */
-.carrosel{
+.carrosel {
   width: 100%;
   margin: 2% auto;
 }
 
-.carrosel .container{
+.carrosel .container {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 100%;
 }
 
-.bt_proximo, .bt_anterior {
+.bt_proximo,
+.bt_anterior {
   background-color: inherit;
   border: none;
 }
 
-.bt_proximo:hover , .bt_anterior:hover {
-  color: #c21d16 ;
+.bt_proximo:hover,
+.bt_anterior:hover {
+  color: #c21d16;
   cursor: pointer;
   transition: 250ms;
 }
 
-.img_carrosel{
+.img_carrosel {
   width: 920px;
   height: 500px;
 }
 
-.linha{
+.linha {
   margin-top: 3%;
   border-top: 1px solid #dde4e7;
 }
-
-
